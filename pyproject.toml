@@ -1,2 +1,12 @@
+[project]
+name = "eshopco-latency-api"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.110,<1",
+  "numpy>=1.26,<3",
+  "pydantic>=2.6,<3",
+]
+
 [tool.vercel]
 entrypoint = "api.latency:app"
